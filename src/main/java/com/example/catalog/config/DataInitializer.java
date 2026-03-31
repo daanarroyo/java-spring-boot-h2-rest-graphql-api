@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class DataInitializer {
 
-    @Bean
+//    @Bean
     CommandLineRunner loadSampleData(ProductRepository productRepository) {
         return args -> {
             if (productRepository.count() == 0) {
