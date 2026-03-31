@@ -1,0 +1,13 @@
+type Query {
+    searchProducts(keyword: String!): [ProductResponse!]!
+}
+
+type ProductResponse {
+    id: ID
+    name: String
+    description: String
+    price: Float
+    stock: Int
+    createdAt: String
+    updatedAt: String
+}

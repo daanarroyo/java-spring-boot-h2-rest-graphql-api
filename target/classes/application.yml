@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: catalog
+  profiles:
+    active: local
+  graphql:
+    graphiql:
+      enabled: true
+  jpa:
+    open-in-view: false
+
+server:
+  port: 8080
